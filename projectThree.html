@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details - Art Andrei Mempin</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="avatar-circle">
+                    <img src="images/myImage.jpg" alt="Profile Avatar" class="avatar-image">
+                </div>
+                <h2 class="name">ART ANDREI<br>MEMPIN</h2>
+            </div>
+            
+            <div class="contact-info">
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <a href="mailto:artandreimeow@gmail.com">
+                        <img src="images/mail.svg" alt="Email" class="icon">
+                        artandreimeow@gmail.com
+                    </a>
+                </div>
+                
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <a href="tel:+639292768051">
+                        <img src="images/phone.svg" alt="Phone" class="icon">
+                        +63 929 276 8051
+                    </a>
+                </div>
+                
+                <div class="info-item">
+                    <h3>Location</h3>
+                    <p>
+                        <img src="images/location.svg" alt="Location" class="icon">
+                        Calamba City, Laguna
+                    </p>
+                </div>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <nav class="navigation">
+                <a href="main.html" class="nav-item">HOME</a>
+                <a href="portfolio.html" class="nav-item active">PORTFOLIO</a>
+                <a href="about.html" class="nav-item">ABOUT ME</a>
+            </nav>
+            
+            <div class="project-content">
+                <a href="portfolio.html" class="back-button">
+                    <svg class="back-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Back
+                </a>
+                
+                <div class="project-details">
+                    <div class="project-info">
+                        <h1 class="project-title">Third Project: Logo + Marketing Materials</h1>
+                        <p class="project-description">This is also a group project, where we are tasked to do a Logo for a Business. We chose to do a Small Coffee Business, and do the different kinds of advertisement/marketing materials: Social Media Post, Landing Page Banner, Newsletter Banner, and lastly a Banner Ad.</p>
+                    </div>
+                    
+                    <div class="image-carousel">
+                        <button class="carousel-btn prev-btn" onclick="changeImage(-1)">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 18l-6-6 6-6"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="carousel-image">
+                            <img id="projectImage" src="images/ProjectThree/Social Media Post.jpg" alt="Project Image">
+                        </div>
+                        
+                        <button class="carousel-btn next-btn" onclick="changeImage(1)">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 18l6-6-6-6"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="scriptThree.js"></script>
+</body>
+</html>
