@@ -1,6 +1,6 @@
 // Array ko
 const projectImages = [
-    'images/projectOne/Prelim - Pear.png',
+    'images/ProjectOne/Prelim - Pear.png',
 ];
 
 // Current image index
@@ -99,4 +99,5 @@ document.addEventListener('keydown', function(event) {
             changeImage(1);
         }
     }
+
 });
