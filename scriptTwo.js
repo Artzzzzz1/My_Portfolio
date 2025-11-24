@@ -1,10 +1,10 @@
 // Array ko
 const projectImages = [
-    'images/projectTwo/Badge1.jpg',
-    'images/projectTwo/Badge2.jpg',
-    'images/projectTwo/Horizontal.jpg',
-    'images/projectTwo/StackedHorizontal.jpg',
-    'images/projectTwo/Vertical.jpg'
+    'images/ProjectTwo/Badge1.jpg',
+    'images/ProjectTwo/Badge2.jpg',
+    'images/ProjectTwo/Horizontal.jpg',
+    'images/ProjectTwo/StackedHorizontal.jpg',
+    'images/ProjectTwo/Vertical.jpg'
 ];
 
 // Current image index
@@ -103,4 +103,5 @@ document.addEventListener('keydown', function(event) {
             changeImage(1);
         }
     }
+
 });
